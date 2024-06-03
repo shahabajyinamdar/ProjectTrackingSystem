@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+  
+  .content {
+    margin-left: 220px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  .form-container {
+    display:flex;
+    justify-content: center;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 20px;
+  } 
+  
+  /* .form-container input[type="text"],
+  .form-container input[type="date"], */
+  .form-container button {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 130px;
+  }
+  
+  .header {
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    flex: 1;
+  }
+  
+  .profile {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .sidebar {
+    margin-top: 80px;
+    background-color: #5f6c71;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    padding-top: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    margin-left: 20px;
+  }
+  h3 {
+    margin-left: 10px;
+    border-bottom: 2px solid silver;
+  }
+  h2 {
+    background: gray;
+    padding: 5px;
+    margin-left: 200px;
+  }
+  #bt1 {
+    margin-left: 150px;
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+  }
+  
