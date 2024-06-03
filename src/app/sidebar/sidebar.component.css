@@ -1,0 +1,21 @@
+.sidebar {
+    margin-top: 80px;
+    background-color: #5f6c71;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+    padding-top: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+    margin-left: 20px;
+  }

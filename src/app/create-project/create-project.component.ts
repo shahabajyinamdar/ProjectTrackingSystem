@@ -3,6 +3,8 @@ import { RouterOutlet } from '@angular/router';
 
 
 import { ApiServiceService } from '../../../services/app-service.service';
+import { HeaderComponent } from '../header/header.component';
+import { SidebarComponent } from '../sidebar/sidebar.component';
 
 
 import {NgForm} from '@angular/forms';
